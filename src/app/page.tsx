@@ -250,10 +250,8 @@ export default async function Home() {
             I am Luís Viegas, a Full-Stack Developer and Machine Learning enthusiast with a Masters in Software 		    Engineering from University of Porto.
 	    Based in Porto, Portugal, currently leading AI
             initiatives at CoolLink S.A., where I design AI solutions for
-            financial institutions. With a Masters in Software Engineering from
-            University of Porto, I specialize in bridging advanced machine
-            learning with scalable web applications.
-          </p>
+            financial institutions.
+	</p>
           <div className="mt-6 flex gap-6">
             <SocialLink
               href="https://github.com/luis-viegas"
