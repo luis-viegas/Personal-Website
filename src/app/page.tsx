@@ -247,8 +247,8 @@ export default async function Home() {
             Software Engineer
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I am Luís Viegas, a Full-Stack Developer and Machine Learning
-            enthusiast based in Porto, Portugal. Currently leading AI
+            I am Luís Viegas, a Full-Stack Developer and Machine Learning enthusiast with a Masters in Software 		    Engineering from University of Porto.
+	    Based in Porto, Portugal, currently leading AI
             initiatives at CoolLink S.A., where I design AI solutions for
             financial institutions. With a Masters in Software Engineering from
             University of Porto, I specialize in bridging advanced machine
