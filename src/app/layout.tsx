@@ -8,7 +8,7 @@ import '@/styles/tailwind.css'
 export const metadata: Metadata = {
   title: {
     template: '%s - Luís Viegas',
-    default: 'Luís Viegas - Software designer',
+    default: 'Luís Viegas - Software Engineer',
   },
   description:
     "I'm Luís Viegas, a Full-Stack Developer and Machine Learning enthusiast based in Porto, Portugal. Currently leading AI initiatives at CoolLink S.A., where I design AI solutions for financial institutions. With a Master's in Software Engineering from University of Porto, I specialize in bridging advanced machine learning with scalable web applications.",
