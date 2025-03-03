@@ -1,0 +1,54 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import designSystem from './planetaria-design-system.png'
+import presenting from './presenting.JPG'
+import launch from './bgw-launch.JPG'
+import bgwApp from './bgw-app.jpg'
+import bgwLog from './bgw-log.jpg'
+
+
+export const article = {
+  author: 'Luís Viegas',
+  date: '2025-02-01',
+  title: 'Board Game Wizard: My first Startup',
+  description:
+    'Board Game Wizard revolutionizes how tabletop enthusiasts interact with their favorite games, combining AI-powered rule assistance with seamless play tracking. Born from a 54-hour development sprint at **Techstars Startup Weekend**, Board Game Wizard helps players master game nights through innovative technology.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+[Board Game Wizard](https://www.board-game-wizard.com) revolutionizes how tabletop enthusiasts interact with their favorite games, combining AI-powered rule assistance with seamless play tracking. Born from a 54-hour development sprint at **Techstars Startup Weekend**, Board Game Wizard helps players master game nights through innovative technology.
+
+<Image className="max-h-[500px] object-contain" src={bgwApp} alt="Board Game Wizard mobile interface" />
+
+## From Weekend Startup to Game Night Essential
+
+The Wizard's journey began at **Techstars Startup Weekend 2024 - Porto**, where our founding team:
+1. Built a functional voice rule assistant prototype in 54 hours
+2. Got second place
+3. Validated with 150+ testers at the event
+4. Secured our first angel investment contact
+
+<Image className="max-h-[500px] object-contain" src={launch} alt="BGW launch event" />
+<Image src={presenting} className="max-h-[500px] object-contain" alt="Me presenting Board Game Wizard at Startup Weekend" />
+
+
+## AI-Powered Game Master in Your Pocket
+
+Whether you're struggling with Gloomhaven's complex combat system or need a quick reminder about Catan's trading rules, Board Game Wizard delivers instant answers through voice commands or text queries. Our specialized AI understands over a thousand board games and can clarify ambiguous rules scenarios in a few seconds.
+
+## Seamless Play Tracking & BGG Integration
+
+<Image src={bgwLog} className="max-h-[500px] object-contain" alt="Play logging interface syncing with BoardGameGeek" />
+
+```
+Transform your phone into a digital game journal:
+✅ Log plays with custom player scores
+✅ Track game-specific stats (e.g., Wingspan bird points)
+✅ Auto-sync plays to your BoardGameGeek profile
+```
+The two-way sync with **BoardGameGeek** (the world's largest board game database) means your collection stats stay updated everywhere automatically.
