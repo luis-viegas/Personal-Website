@@ -47,14 +47,14 @@ export function AboutMe() {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <p className="mb-6 text-xl leading-relaxed text-gray-700 dark:text-gray-300">
+          <p className="mb-6 text-lg leading-relaxed text-gray-700 dark:text-gray-300">
             As a Full-Stack Developer and AI Engineer, I build intelligent web
             systems using modern stacks like React, Next.js, and Node.js. With
             expertise in Python, LangChain, and RAG pipelines, I design
             solutions that bridge machine learning models with scalable
             applications for enhanced information retrieval and automation.
           </p>
-          <p className="text-xl leading-relaxed text-gray-700 dark:text-gray-300">
+          <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
             My work extends to distributed systems and LLM-powered tools,
             leveraging frameworks like FastAPI and SQL databases. Passionate
             about merging cutting-edge AI with clean architecture, I focus on

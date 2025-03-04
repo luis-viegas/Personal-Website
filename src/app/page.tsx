@@ -246,12 +246,13 @@ export default async function Home() {
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
             Software Engineer
           </h1>
-          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I am Luís Viegas, a Full-Stack Developer and Machine Learning enthusiast with a Masters in Software 		    Engineering from University of Porto.
-	    Based in Porto, Portugal, currently leading AI
-            initiatives at CoolLink S.A., where I design AI solutions for
-            financial institutions.
-	</p>
+          <p className="mt-6 text-lg text-zinc-600 dark:text-zinc-400">
+            I am Luís Viegas, a Full-Stack Developer and Machine Learning
+            Engineer with a Masters in Software Engineering from University of
+            Porto. Based in Porto, Portugal, currently leading AI initiatives at
+            CoolLink S.A., where I design AI solutions for financial
+            institutions.
+          </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
               href="https://github.com/luis-viegas"
